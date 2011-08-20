@@ -1,18 +1,11 @@
 # Admin Excerpt Letter Count
-
-Contributors: Joss Crowcroft
-
-Author: Joss Crowcroft
-
-Author URI: http://www.josscrowcroft.com
-
-Tags: admin, post, edit, letter count, excerpt, post excerpt, character count, length, jquery
-
-Requires at least: 3.0
-
-Tested up to: 3.1.2
-
-Stable tag: 0.1
+##### Contributors: Joss Crowcroft
+##### Author: Joss Crowcroft
+##### Author URI: http://www.josscrowcroft.com
+##### Tags: admin, post, edit, letter count, excerpt, post excerpt, character count, length, jquery
+##### Requires at least: 3.0
+##### Tested up to: 3.1.2
+##### Stable tag: 0.1
 
 Adds a simple character counter to the admin post edit screen's "excerpt" field. Highlights red if characters exceed the defined excerpt length (default 55, or theme-controlled.)
 
@@ -37,7 +30,7 @@ I think "Frequently" is kinda inaccurate for a first-release of anything, so let
 
 ### How can I control the maximum characters?
 
-The default excerpt length in WordPress is 55, and so the max chars on the counter are controlled by `&lt;?php echo intval(apply_filters('excerpt_length', 55)); ?&gt;`. Some themes override this via that filter, setting it to 80, or 120, or whatever. I've even seen '99'. Anyhow, check out [the Codex page](http://codex.wordpress.org/Plugin_API/Filter_Reference/excerpt_length) for details.
+The default excerpt length in WordPress is 55, and so the max chars on the counter are controlled by `<?php echo intval(apply_filters('excerpt_length', 55)); ?>`. Some themes override this via that filter, setting it to 80, or 120, or whatever. I've even seen '99'. Anyhow, check out [the Codex page](http://codex.wordpress.org/Plugin_API/Filter_Reference/excerpt_length) for details.
 
 ### Where's the plugin's admin panel?
 
