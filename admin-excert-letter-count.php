@@ -14,8 +14,9 @@ function aelc_add_counter() {
 		// Anti-pollution:
 		(function($){
 			$(function() {
-				// Activate if there's an axcerpt field:
 				var $excerpt = $('#excerpt');
+
+				// Only activate if there's an excerpt field:
 				if ( $excerpt.length ) {
 					// Create counter and max length value:
 					var $counter = $('<p/>').insertAfter($excerpt),
